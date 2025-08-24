@@ -1,9 +1,9 @@
 import './App.css'
-
+import DrawingBoard from './components/DrawingBoard';
 function App() {
     return(
       <div>
-        <h1>hi</h1>
+        <DrawingBoard />
       </div>
     )
 }
