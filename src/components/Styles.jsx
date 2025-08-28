@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from "styled-components";
+//canvas style
 export const StyledCanvas = styled.canvas`
   box-shadow: 8px 10px 108px rgb(39 123 115);
   border: 3px solid #5a935c;
@@ -17,7 +18,7 @@ export const StyledDiv = styled.div`
   align-items: center;
 `;
 export const ToolsDiv = styled(StyledDiv)`
-  background-color: black;
+  background-color: 000000;
   padding: 10px 100px;
   flex-direction: row;
   justify-content: space-between;
