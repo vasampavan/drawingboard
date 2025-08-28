@@ -13,7 +13,7 @@ const Canvas = () => {
   const canvasRef = useRef(null);
   const [isDrawing, setIsDrawing] = useState(false);
   const [context, setContext] = useState(null);
-  const [color, setColor] = useState("#ffffff");
+  const [color, setColor] = useState("#000000ff");
   const [lineWidth, setLineWidth] = useState(2);
   const [drawingHistory, setDrawingHistory] = useState([]);
   const [redoHistory, setRedoHistory] = useState([]);
@@ -72,7 +72,7 @@ const Canvas = () => {
   };
 
   const erase = () => {
-    setColor("black");
+    setColor("white");
   };
 
   const undoDrawing = () => {

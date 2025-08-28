@@ -36,7 +36,7 @@ export const StyledInput = styled.input`
 `;
 export const GlobalStyle = createGlobalStyle`
 body{
-    background: black;
+    background: white;
     padding: 0px;
     margin: 0px;
 }
