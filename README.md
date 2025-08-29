@@ -10,13 +10,7 @@ A collaborative drawing board application with various features.
 - [Getting Started](#getting-started)
 - [Usage](#usage)
 - [Images](#images)
-- [Testing](#testing)
-- [Deployment](#deployment)
-- [Known Issues](#known-issues)
 - [Future Enhancements](#future-enhancements)
-- [Contributing](#contributing)
-- [Resources](#resources)
-- [License](#license)
 
 ## Description
 
@@ -44,46 +38,14 @@ To run the project locally, follow these steps:
 3. Start the development server: `npm run dev`
 4. Open the application in your browser: `http://localhost:5173/`
 
-## Usage
-
-
 
 ## Images
 
-### App images
-
 images
 
-[![empty board](/public/fullimage.jpeg)](jk)
+![alt text](image.png)
 
-[house sketch using the drawing board]
-![house sketch](/public/houseSK.jpeg)](jk)
-
-[![Another_sketch](/public/Web%20capture_10-6-2023_124711_localhost.jpeg)](/drawing_board/public/Web%20capture_10-6-2023_124711_localhost.jpeg)
-
-## Testing
-
-Explain how to run the tests and include any relevant information about the testing framework or approach
-
-## Deployment
-
-
-## Known Issues
-
-Document any known bugs, issues, or limitations in the project.
 
 ## Future Enhancements
 
-List any planned or desired features and enhancements for the project.
-
-## Contributing
-
-We welcome contributions from developers to improve and add new features to the project. If you'd like to contribute, please follow these steps:
-
-1. Fork the repository.
-2. Create a new branch for your feature: `git checkout -b feature/your-feature-name`
-3. Implement your changes and additions.
-4. Commit and push your changes: `git commit -m "Add your commit message"` and `git push origin feature/your-feature-name`
-5. Open a pull request (PR) in this repository with a clear description of your changes.
-
-Please ensure that your code follows the project's coding style and conventions. It's also recommended to include tests for your changes.
+Add functionality for users to customize the board color and create/manage multiple boards within the application.
